@@ -9,7 +9,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 		window.onload = function() {
-			//親ウィンドウをReadに画面遷移させるl
+			//親ウィンドウをReadに画面遷移させるl!
 			window.opener.location.href = "/20220915kaihatsu/ReadMSTSEIHIN";
 				  //画面を閉じる
 				  window.close();
