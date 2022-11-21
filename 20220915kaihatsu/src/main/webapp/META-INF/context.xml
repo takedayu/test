@@ -1,0 +1,15 @@
+<!-- context.xmlは無くても動くらしい -->
+<xml version="1.0" encoding="UTF-8" >
+<Context>
+<!-- <Resource
+      name="jdbc/Test-DB"
+      auth="Container"
+      type="javax.sql.DataSource"
+      driverClassName="oracle.jdbc.driver.OracleDriver"
+      url="jdbc:oracle:thin:@163.149.99.38:1521:oracle"
+      connectionProperties="autoReconnect=true;verifyServerCertificate=false;useSSL=false;requireSSL=false;useUnicode=true;characterEncoding=UTF-8;"
+      username="kenshu"
+      password="kenshu"
+      validationQuery="select 1"/> -->
+</Context>
+</xml>

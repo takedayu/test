@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.cn{
+  color: red;
+}
+
+.listcss {
+/*  width: 50px;
+  height: 50px;
+  background: skyblue;
+*/ 
+  overflow: scroll;
+}
+
+body {
+	
+    background-image: url(https://photom.xyz/wp-content/uploads/2020/09/i000894_cream-soda.png);
+    background-size: cover;
+    margin: 0px;
+   /* text-align: center;*/
+
+}
