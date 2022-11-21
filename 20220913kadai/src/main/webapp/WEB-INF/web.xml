@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID">
+	<display-name>20220913kadai</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+		<servlet>
+		<servlet-name>HelloServletMapping</servlet-name>
+		<servlet-class>ch3.HelloServlet</servlet-class>
+		</servlet>
+		<servlet>
+		<servlet-name>SeasonServletMapping</servlet-name>
+		<servlet-class>ch3.SeasonServlet</servlet-class>
+		</servlet>
+		
+	<servlet-mapping>
+		<servlet-name>HelloServletMapping</servlet-name>
+		<url-pattern>/HelloServlet</url-pattern>
+	</servlet-mapping>
+	 <servlet-mapping>
+ 		<servlet-name>SeasonServletMapping</servlet-name>
+ 		<url-pattern>/SeasonServlet</url-pattern>
+ 	</servlet-mapping>
+ 	
+
+<servlet>
+	<servlet-name>GuessServletMapping</servlet-name>
+	<servlet-class>lib.ch4.GuessServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GuessServletMapping</servlet-name>
+	<url-pattern>/GuessServlet</url-pattern>
+</servlet-mapping>
+
+	
+</web-app>
