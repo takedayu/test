@@ -8,7 +8,7 @@ public class Season {
 
 	public String getSeason(){
  		//0から11までのランダムな数字を生成
- 		int n = random.nextInt(12);
+ 		int n = random.nextInt(10);
  
  		//ランダムな数字に対応する季節を返す
  		if(n < 3){
