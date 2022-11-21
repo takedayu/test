@@ -1,5 +1,5 @@
 package db;
 
 public class Tessssst {
-	String test = ("テストです");
+	String test = ("テスト");
 }
