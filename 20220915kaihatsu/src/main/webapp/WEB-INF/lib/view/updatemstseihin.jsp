@@ -166,7 +166,11 @@ document.updatem.btn.addEventListener('click', function() {
 				  //画面を閉じる
 				  window.close();
 				}-->
+ttt
 
+
+
+				
 </script>
 
 </form>
